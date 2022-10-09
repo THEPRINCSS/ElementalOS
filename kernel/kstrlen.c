@@ -1,3 +1,9 @@
+/*
+ *      Elemental OS
+ *Copyright(c) Andrey Skripcka, 2022
+ * 
+ */
+
 #include <kstdint.h>
 
 size_t kstrlen(const char* str)

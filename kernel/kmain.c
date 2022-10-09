@@ -1,8 +1,12 @@
+/*
+ *      Elemental OS
+ *Copyright(c) Andrey Skripcka, 2022
+ * 
+ */
+
 #include <kstdio.h>
 
 void main()
 {
-    screen_clear();
-    char *command = keyboard();
-    write(command);
+
 }

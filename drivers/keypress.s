@@ -1,3 +1,9 @@
+/*
+ *      Elemental OS
+ *Copyright(c) Andrey Skripcka, 2022
+ * 
+ */
+
 .code16
 .global keypress
 keypress:
