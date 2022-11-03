@@ -1,8 +1,7 @@
 #include <kstdint.h>
-#include "process/used_pid.h"
-#include "process/process_data.h"
+#include <process/used_pid.h>
+#include <process/process_data.h>
 
-struct pid * next_pid;
 
 uint32_t set_pid(){
     struct pid * next_pid = root_pid;

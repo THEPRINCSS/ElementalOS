@@ -5,8 +5,9 @@
  */
 
 #include <kstdio.h>
+#include <io.h>
 
 void main()
 {
-
+    port_input(1,1);
 }

@@ -10,6 +10,6 @@
 switch_mode:
     movl %cr0, %eax
     or $0x1, %ax
-    movl %eax, %cr0
+    xor %eax, %cr0
     movw $0x0, %ax
     retw
